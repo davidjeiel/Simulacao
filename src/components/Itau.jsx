@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export function Itau() {
+export const Itau = (params)=>{
   const [dados, setDados] = useState([]);
 
   useEffect(() => {
@@ -16,9 +16,17 @@ export function Itau() {
 
   return (
     <>
-      {retorno.map((dados) => {
-        return <p>{dados.name}</p>;
-      })}
+    <h3>
+      {params.titulo}
+    </h3>
+
+      {
+        retorno.map((dados) => {
+          return(
+             <p>{dados.name}</p>
+          )
+        })
+      }
     </>
   );
 }
