@@ -1,6 +1,6 @@
 # Simulação
 
-Este é um repositório contendo a aplicação de simulação desenvolvida por David Jeiel em ReactJS. A aplicação é projetada para realizar simulações de diversos cenários e analisar os resultados obtidos.
+A aplicação é projetada para realizar simulações de diversos cenários e analisar os resultados obtidos.
 
 ## Funcionalidades
 
